@@ -214,11 +214,11 @@ int main() {
 
     list.insertAt(2, 15);
 
-    list.display();        // [5 -> 10 -> 15 -> 20 -> 30]
+    list.display();        
 
     list.removes(20);
 
-    list.display();        // [5 -> 10 -> 15 -> 30]
+    list.display();        
 
     cout << list.front() << endl;
     cout << list.back() << endl;
