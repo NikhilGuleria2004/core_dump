@@ -23,6 +23,6 @@ int maxSum(vector<int>&arr, int k){
 }
 
 int main(){
-    vector<int>arr = {2,1,5,1,3,2};
+    vector<int>arr = {2,1,5, 1,3,2};
     cout<<maxSum(arr,3);
 }
